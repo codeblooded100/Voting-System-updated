@@ -18,9 +18,9 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `voting_db`
+--  Database: `voting_db`
 --
-
+use heroku_fdb1e9a6ee7e70a;
 -- --------------------------------------------------------
 
 --
