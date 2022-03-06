@@ -110,7 +110,7 @@ a.custom-menu-list span.icon{
 	}
 ?>
 
-	?>
+	
 	<div class="row">
 		<div class="col-lg-12">
 			<div class="card col-md-4 offset-2 bg-info float-left">
