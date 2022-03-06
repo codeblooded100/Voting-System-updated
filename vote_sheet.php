@@ -60,6 +60,23 @@
 		display: block
 	}
 	
+
+	@media screen and (max-width: 800px;) {
+		.candidate {
+	    margin: 10% auto;
+	    width: 16vw;
+	    padding: 10px;
+	    cursor: pointer;
+	    border-radius: 3px;
+	    margin-bottom: 1em;
+		font-size: 6px;
+	}
+	.candidate img {
+	    height: 14vh;
+	    width: 18vw;
+	    margin: auto;
+	}
+	}
 	
 </style>
 <div class="container-fluid">
