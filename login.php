@@ -139,7 +139,7 @@ img{
 <footer class="page-footer font-small blue">
 
 <!-- Copyright -->
-<div class="footer-copyright text-center" style="color: white; font-size: 10px;" >Powered by :
+<div class="footer-copyright text-center" style="color: white; font-size: 15px;" >Powered by :
   <a href="#" style="color: white;"> CODE BLOODED</a>
 </div>
 <!-- Copyright -->
