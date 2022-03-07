@@ -52,7 +52,7 @@
 	    margin-bottom: 1em
 	}
 	.candidate:hover {
-	    background-color: #80808030;
+	    background-color: white;
 	    box-shadow: 2.5px 3px #00000063;
 	}
 	.candidate img {
@@ -105,11 +105,11 @@
 		<div class="card">
 			<div class="card-body">
 				<form action="" id="manage-vote">
-					<input type="hidden" name="voting_id" value="<?php echo $id ?>">
+					<input style= "font-size:20px;" type="hidden" name="voting_id" value="<?php echo $id ?>">
 				<div class="col-lg-12">
-					<div class="text-center">
+					<div class="text-center" style= "font-size:20px;">
 						<h3><b><?php echo $title ?></b></h3>
-						<small><b><?php echo $description; ?></b></small>	
+						<large><b><?php echo $description; ?></b></large>	
 					</div>
 					
 					<?php 
@@ -119,9 +119,9 @@
 						<hr>
 						<div class="row mb-4">
 							<div class="col-md-12">
-									<div class="text-center">
-										<h3><b><?php echo $row['category'] ?></b></h3>
-									<small>Max Selection : <b><?php echo $set_arr[$row['id']]['max_selection']; ?></b></small>
+									<div class="text-center" style= "font-size:20px;">
+										<h3 style= "font-size:20px;"><b><?php echo $row['category'] ?></b></h3>
+									<large>Max Selection : <b><?php echo $set_arr[$row['id']]['max_selection']; ?></b></large>
 
 									</div>
 							</div>
@@ -139,8 +139,8 @@
 									<img src="assets/img/<?php echo $candidate['image_path'] ?>" alt="">
 								</div>
 								<br>
-							<small>	<div class="text-center"  style= "display: flex; font-size: 16px">  </small>
-									<small class="text-center"  style= "display: flex; font-size: 16px"><b><?php echo ucwords($candidate['opt_txt']) ?></b></small>
+							<large>	<div class="text-center"  style= "display: flex; font-size: 26px">  </large>
+									<large class="text-center"  style= "display: flex; font-size: 26px"><b><?php echo ucwords($candidate['opt_txt']) ?></b></large>
 
 								</div>
 								</div>
@@ -150,7 +150,7 @@
 					<?php endwhile; ?>
 				</div>
 				<hr>
-				<button class="btn-block btn-primary">Sumbit</button>
+				<button class="btn-block btn-primary" style= "font-size:20px;">Sumbit</button>
 				</form>
 			</div>
 		</div>
