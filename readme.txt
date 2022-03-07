@@ -1,14 +1,18 @@
-Free Download Source Code "Voting Management System"
+MADE BY CODE BLOODED
 
-FIRST Download
+
+
+CODE BLOODED Voting_Management_System
+
+FIRST Download OR CLONE
 
 1.XAMPP
 
-2."TEXT EDITOR" NOTEPAD++ OR SUBLIME TEXT 3 / ETC.
+2."TEXT EDITOR"VS CODE.
 
 3"Voting_Management_System"
 
-4. Download the zip file/ download winrar
+4. Download the zip file
 
 5. Extract the file and copy "Voting_Management_System" folder
 
@@ -27,7 +31,4 @@ FIRST Download
 
 Admin
 user: admin
-pass: admin123
-
-****** https://www.campcodes.com/ ******
-Subcribe to our Youtube Channel **** SerBermz ****
+pass: ***********
