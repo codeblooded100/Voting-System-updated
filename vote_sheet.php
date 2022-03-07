@@ -106,10 +106,10 @@
 		<div class="card">
 			<div class="card-body">
 				<form action="" id="manage-vote">
-					<input style= "font-size:20px;" type="hidden" name="voting_id" value="<?php echo $id ?>">
+					<input style= "font-size:50px;" type="hidden" name="voting_id" value="<?php echo $id ?>">
 				<div class="col-lg-12">
-					<div class="text-center" style= "font-size:20px;">
-						<h3><b><?php echo $title ?></b></h3>
+					<div class="text-center" style= "font-size:30px;">
+						<h3 style= "font-size:55px;"><b><?php echo $title ?></b></h3>
 						<large><b><?php echo $description; ?></b></large>	
 					</div>
 					
@@ -121,8 +121,8 @@
 						<div class="row mb-4">
 							<div class="col-md-12">
 									<div class="text-center" style= "font-size:20px;">
-										<h3 style= "font-size:20px;"><b><?php echo $row['category'] ?></b></h3>
-									<large>Max Selection : <b><?php echo $set_arr[$row['id']]['max_selection']; ?></b></large>
+										<h3 style= "font-size:50px;"><b><?php echo $row['category'] ?></b></h3>
+									<large  style= "font-size:30px;">Max Selection : <b><?php echo $set_arr[$row['id']]['max_selection']; ?></b></large>
 
 									</div>
 							</div>
@@ -130,7 +130,7 @@
 						<div class="row mt-3">
 						<?php foreach ($opt_arr[$row['id']] as $candidate) {
 						?>
-							<div class="candidate" style="position: relative;" data-cid = '<?php echo $row['id'] ?>'  data-max="<?php echo $set_arr[$row['id']]['max_selection'] ?>" data-name="<?php echo $row['category'] ?>">
+							<div  class="candidate" style="position: relative; font-size: 10%;" data-cid = '<?php echo $row['id'] ?>'  data-max="<?php echo $set_arr[$row['id']]['max_selection'] ?>" data-name="<?php echo $row['category'] ?>">
 									<input type="checkbox" name="opt_id[<?php echo $row['id'] ?>][]" value="<?php echo $candidate['id'] ?>" style="display: none">
 								<span class="rem_btn">
 									<label for="" class="btn btn-primary"><span class="fa fa-check"></span></label>
