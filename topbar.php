@@ -17,7 +17,7 @@
   				<i class="fa fa-poll-h"></i>
   			</div>
   		</div>
-	  	<div class="col-md-2 float-right text-white">
+	  	<div class="col-md-2 float-right text-white" style= "font-size:140%; background-size:60%;">
 	  		<a href="ajax.php?action=logout" class="text-white"><?php echo $_SESSION['login_name'] ?> <i class="fa fa-power-off"></i></a>
 	    </div>
     </div>

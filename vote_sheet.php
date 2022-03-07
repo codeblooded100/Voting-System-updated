@@ -75,6 +75,7 @@
 	.text-center{
 		font-size: 16px;
 	}
+
 	
 
 	@media screen and (max-width: 800px;) {
@@ -150,7 +151,7 @@
 					<?php endwhile; ?>
 				</div>
 				<hr>
-				<button class="btn-block btn-primary" style= "font-size:20px;">Sumbit</button>
+				<button class="btn-block btn-primary"   style= "font-size:400%; margin: 10% auto; background-size:60%;">Sumbit</button>
 				</form>
 			</div>
 		</div>
