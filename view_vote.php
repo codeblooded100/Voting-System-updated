@@ -83,8 +83,8 @@
 									<img src="assets/img/<?php echo $opt_arr[$voted['voting_opt_id']]['image_path'] ?>" alt="">
 								</div>
 								<br>
-								<div class="text-center" style= "font-size: 16px;">
-									<small class="text-center" style= "font-size: 16px;"><?php echo ucwords($opt_arr[$voted['voting_opt_id']]['opt_txt']) ?></small>
+							<small>	<div class="text-center" style= "font-size: 16px"> </small>
+									<small class="text-center" style= "font-size: 16px"><?php echo ucwords($opt_arr[$voted['voting_opt_id']]['opt_txt']) ?></small>
 
 								</div>
 								</div>
