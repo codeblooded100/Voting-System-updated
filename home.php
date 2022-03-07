@@ -65,9 +65,9 @@ a.custom-menu-list span.icon{
 }
 	.img-field {
 	    display: flex;
-	    height: 10vh;
-	    width: 5.3vw;
-	    padding: .7em;
+	    height: 4vh;
+	    width: 4.7vw;
+	    padding: 1.7em;
 	    background: #80808047;
 	    border-radius: 50%;
 	    position: absolute;
