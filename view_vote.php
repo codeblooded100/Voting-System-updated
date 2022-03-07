@@ -73,7 +73,7 @@
 									</div>
 							</div>
 						</div>
-						<div class="row mt-3">
+						<div class="row mt-5">
 						<?php 
 						foreach ($vote_arr[$row['id']] as $voted) {
 						?>
@@ -83,8 +83,8 @@
 									<img src="assets/img/<?php echo $opt_arr[$voted['voting_opt_id']]['image_path'] ?>" alt="">
 								</div>
 								<br>
-								<div class="text-center">
-									<small class="text-center"><b><?php echo ucwords($opt_arr[$voted['voting_opt_id']]['opt_txt']) ?></b></small>
+								<div class="text-center" style= "font-size: 16px;">
+									<small class="text-center" style= "font-size: 16px;"><?php echo ucwords($opt_arr[$voted['voting_opt_id']]['opt_txt']) ?></small>
 
 								</div>
 								</div>
