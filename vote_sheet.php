@@ -46,7 +46,7 @@
 	}
 	.candidate img {
 	    height: 14vh;
-	    width: 8vw;
+	    width: 28vw;
 	    margin: auto;
 	}
 	span.rem_btn {
@@ -58,6 +58,10 @@
 	}
 	span.rem_btn.active{
 		display: block
+	}
+	
+	.text-center{
+		font-size: 16px;
 	}
 	
 
@@ -73,9 +77,14 @@
 	}
 	.candidate img {
 	    height: 14vh;
-	    width: 18vw;
+	    width: 28vw;
 	    margin: auto;
 	}
+
+	.text-center{
+		font-size: 16px;
+	}
+	
 	}
 	
 </style>
@@ -118,8 +127,8 @@
 									<img src="assets/img/<?php echo $candidate['image_path'] ?>" alt="">
 								</div>
 								<br>
-								<div class="text-center">
-									<large class="text-center"><b><?php echo ucwords($candidate['opt_txt']) ?></b></large>
+							<small>	<div class="text-center"  style= "display: flex; font-size: 16px">  </small>
+									<small class="text-center"  style= "display: flex; font-size: 16px"><b><?php echo ucwords($candidate['opt_txt']) ?></b></small>
 
 								</div>
 								</div>
