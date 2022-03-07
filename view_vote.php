@@ -30,7 +30,7 @@
 	}
 	.candidate img {
 	    height: 24vh;
-	    width: 300%;
+	    width: 320%;
 		margin-left:-90%;
 	    margin: auto;
 	}
@@ -83,8 +83,8 @@
 									<img src="assets/img/<?php echo $opt_arr[$voted['voting_opt_id']]['image_path'] ?>" alt="">
 								</div>
 								<br>
-							<small>	<div class="text-center" style= "font-size: 16px"> </small>
-									<small class="text-center" style= "font-size: 16px"><?php echo ucwords($opt_arr[$voted['voting_opt_id']]['opt_txt']) ?></small>
+							<small>	<div class="text-center" style= "display: flex; font-size: 16px"> </small>
+									<small class="text-center" style= "font-size: 16px; display: flex"><?php echo ucwords($opt_arr[$voted['voting_opt_id']]['opt_txt']) ?></small>
 
 								</div>
 								</div>
