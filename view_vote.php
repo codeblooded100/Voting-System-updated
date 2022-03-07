@@ -34,6 +34,9 @@
 		margin-left:-90%;
 	    margin: auto;
 	}
+	.text-center{
+		font-size: 16px;
+	}
 	
 	
 </style>
@@ -81,7 +84,7 @@
 								</div>
 								<br>
 								<div class="text-center">
-									<large class="text-center"><b><?php echo ucwords($opt_arr[$voted['voting_opt_id']]['opt_txt']) ?></b></large>
+									<small class="text-center"><b><?php echo ucwords($opt_arr[$voted['voting_opt_id']]['opt_txt']) ?></b></small>
 
 								</div>
 								</div>
