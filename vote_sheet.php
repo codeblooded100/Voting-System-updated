@@ -35,7 +35,7 @@
 	.candidate {
 	    margin: auto;
 	    width: 16vw;
-	    padding: 10px;
+	    padding: 15px;
 	    cursor: pointer;
 	    border-radius: 3px;
 	    margin-bottom: 1em
@@ -123,7 +123,7 @@
 									<label for="" class="btn btn-primary"><span class="fa fa-check"></span></label>
 								</span>
 								<div class="item"  data-id="<?php echo $candidate['id'] ?>">
-								<div style="display: flex">
+								<div style="display: grid">
 									<img src="assets/img/<?php echo $candidate['image_path'] ?>" alt="">
 								</div>
 								<br>
