@@ -1,3 +1,14 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="viewport" content="width=1124">
+  <title>Voting System</title>
+</head>
+
 <?php include('db_connect.php');?>
 <?php
 
@@ -34,7 +45,7 @@
 <style>
 	.candidate {
 	    margin: auto;
-	    width: 16vw;
+	    width: 20%;
 	    padding: 15px;
 	    cursor: pointer;
 	    border-radius: 3px;
@@ -46,7 +57,8 @@
 	}
 	.candidate img {
 	    height: 14vh;
-	    width: 28vw;
+	    width: 23vw;
+		margin-left:20px;
 	    margin: auto;
 	}
 	span.rem_btn {
@@ -68,8 +80,8 @@
 	@media screen and (max-width: 800px;) {
 		.candidate {
 	    margin: 10% auto;
-	    width: 16vw;
-	    padding: 10px;
+	    width: 13px;
+	    padding: 15px;
 	    cursor: pointer;
 	    border-radius: 3px;
 	    margin-bottom: 1em;
@@ -78,7 +90,7 @@
 	.candidate img {
 	    height: 14vh;
 	    width: 28vw;
-	    margin: auto;
+	    margin: 10% auto;
 	}
 
 	.text-center{
@@ -123,7 +135,7 @@
 									<label for="" class="btn btn-primary"><span class="fa fa-check"></span></label>
 								</span>
 								<div class="item"  data-id="<?php echo $candidate['id'] ?>">
-								<div style="display: grid">
+								<div style="display: flex; margin:13% auto">
 									<img src="assets/img/<?php echo $candidate['image_path'] ?>" alt="">
 								</div>
 								<br>
