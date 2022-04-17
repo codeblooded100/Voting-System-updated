@@ -79,7 +79,7 @@ a.custom-menu-list span.icon{
     height: 100%;
     width: 100%;
     margin: auto;
-    border-radius: 50%;
+    border-radius: 50%; 
 }
 .vote-field {
     position: absolute;
@@ -173,7 +173,7 @@ a.custom-menu-list span.icon{
 		</div>
 		</div>
 	</div>
-
+     
 </div>
 <script>
 	

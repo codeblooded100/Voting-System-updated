@@ -30,7 +30,7 @@
 	}
 	.candidate img {
 	    height: 24vh;
-	    width: 320%;
+	    width: 360%;
 		margin-left:-90%;
 	    margin: auto;
 	}

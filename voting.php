@@ -131,4 +131,11 @@ window._conf = function($msg='',$func='',$params = []){
       })
   })
 </script>	
+
+<footer class="page-footer font-small blue">
+
+<div class="footer-copyright text-center py-3">Powered by:
+  <a href="/"> CODE BLOODED</a>
+</div>
+</footer>
 </html>
